@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -80,3 +81,87 @@ nav ul li a {
     bottom: 0;
     width: 100%;
 }
+=======
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about, .services {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about {
+    background-color: #f9f9f9;
+}
+
+.services {
+    background-color: #f0f0f0;
+}
+
+.service-item {
+    margin-top: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6666;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff3333;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+>>>>>>> b425c709ba19f8748e8723b8d117c44d39330b79
